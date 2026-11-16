@@ -10,7 +10,7 @@
   <a href="https://www.linkedin.com/in/adekunle-olanrewaju-20261844b"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/Adekunle-sec/cybersecurity-portfolio"><img src="https://img.shields.io/badge/Cybersecurity%20Portfolio-Explore%20SOC%2C%20IAM%2C%20GRC-38BDF8?style=for-the-badge&logo=shield&logoColor=white" /></a>
   <a href="https://github.com/Adekunle-sec/data-analytics-portfolio"><img src="https://img.shields.io/badge/Data%20Analytics%20Portfolio-Explore%20Excel%2C%20SQL%2C%20BI-10B981?style=for-the-badge&logo=microsoftexcel&logoColor=white" /></a>
-  <a href="mailto:contact@anlogix.com"><img src="https://img.shields.io/badge/Email-Direct%20Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:tayour.ola@gmail.com"><img src="https://img.shields.io/badge/Email-Direct%20Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
@@ -131,7 +131,7 @@ Every case study across my repositories is maintained to strict international st
 I am actively seeking roles and high-impact opportunities in **Cybersecurity (Cybersecurity Analyst, SOC Analyst, Threat Intelligence, IAM/GRC Analyst)** and **Data Analysis (Enterprise Data & BI Analyst)**.
 
 * 💼 **LinkedIn:** [linkedin.com/in/adekunle-olanrewaju-20261844b](https://www.linkedin.com/in/adekunle-olanrewaju-20261844b)
-* 📧 **Email:** [contact@anlogix.com](mailto:contact@anlogix.com)
+* 📧 **Email:** [tayour.ola@gmail.com](mailto:tayour.ola@gmail.com)
 * 🛡️ **Cybersecurity Codebase:** [Adekunle-sec / cybersecurity-portfolio](https://github.com/Adekunle-sec/cybersecurity-portfolio)
 * 📊 **Data Analytics Codebase:** [Adekunle-sec / data-analytics-portfolio](https://github.com/Adekunle-sec/data-analytics-portfolio)
 * 📍 **Location:** Lagos, Nigeria · Open to Global Remote, Hybrid, or Relocation opportunities
