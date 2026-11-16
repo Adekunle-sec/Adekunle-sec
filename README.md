@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./header.svg" width="100%" alt="Adekunle Ola Header" />
+  <img src="./header.svg" width="100%" alt="Adekunle Olanrewaju Header" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=780&lines=Adekunle+Ola+%E2%80%A2+Cybersecurity+Analyst+%7C+SOC+%26+Threat+Intelligence;Enterprise+Data+Analyst+%E2%80%A2+Advanced+Excel+%2B+SQL+%2B+BI;Identity+%26+Access+Management+(IAM)+%7C+ISO+27001+GRC;Microsoft+Sentinel+%2B+Defender+XDR+%2B+KQL+Detection" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=780&lines=Adekunle+Olanrewaju+%E2%80%A2+Cybersecurity+Analyst;Data+Analysis+%E2%80%A2+Advanced+Excel+%2B+SQL+%2B+BI;Identity+%26+Access+Management+(IAM)+%7C+ISO+27001+GRC;Microsoft+Sentinel+%2B+Defender+XDR+%2B+KQL+Detection" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ## 👨‍💻 Professional Profile
 
-I am a **Data Analytics and Cybersecurity Professional** dedicated to bridging technical threat telemetry with evidence-based business intelligence. I apply analytical thinking, threat research, and automated data pipelines to solve complex business and enterprise security challenges.
+I am a **Cybersecurity Analyst and Data Analysis Specialist** dedicated to bridging technical threat telemetry with evidence-based business intelligence. I apply analytical thinking, threat research, and automated data pipelines to solve complex business and enterprise security challenges.
 
 My operational focus spans **Identity & Access Management (IAM), Governance, Risk & Compliance (GRC), Security Operations Center (SOC) defense, Threat Modeling, Threat Intelligence, and Enterprise BI Modeling**.
 
@@ -27,15 +27,15 @@ Through hands-on operational assignments at **Halisans Technologies**, I have de
 
 ## 🔐 Specialized Focus Areas
 
-### 🛡️ Cybersecurity & Identity Defense
+### 🛡️ Cybersecurity Analyst Focus
 * **Identity & Access Management (IAM):** End-to-end identity lifecycle governance, Joiner-Mover-Leaver (JML) workflows, automated provisioning and deprovisioning, Role-Based Access Control (RBAC) matrices, Active Directory, GPO security baselines, and least-privilege enforcement.
 * **Governance, Risk & Compliance (GRC):** Information security governance aligned with **ISO/IEC 27001:2022** and **NIST CSF 2.0**, IT General Controls (ITGC) assessments, security policy development, non-conformity tracking, and external audit readiness.
 * **Security Operations (SOC):** Enterprise security monitoring, event log correlation (Event IDs `4624`, `4625`, `4740`), custom KQL analytic rules in Microsoft Sentinel, endpoint alert triage in Defender XDR, and incident lifecycle response.
 * **Threat Modeling & Attack Surface Analysis:** Identification of attack vectors, attack surface minimization, STRIDE modeling, privilege escalation pathway mapping, and mitigation engineering.
 * **Threat Intelligence & Security Analysis:** Cyber Threat Intelligence (CTI) research across AlienVault OTX and VirusTotal, Indicator of Compromise (IOC) to detection engineering handoffs, and technique mapping to the **MITRE ATT&CK** Enterprise Matrix.
 
-### 📊 Enterprise Data Analytics
-My strong data analytics foundation empowers me to treat enterprise security as a **Big Data problem**—translating high-velocity logs and operational records into clear, executive-ready decision intelligence.
+### 📊 Data Analysis Focus
+My Data Analysis background empowers me to treat enterprise security as a **Big Data problem**—translating high-velocity logs and operational records into clear, executive-ready decision intelligence.
 * **Data Analysis & Exploration:** Multi-attribute indexing (`XLOOKUP`, `INDEX/MATCH`), dynamic array manipulation, and anomaly isolation.
 * **SQL Data Engineering:** CTE deduplication, self-joins for missing data imputation, string parsing (`PARSENAME`), and rolling window metrics (AlexTheAnalyst benchmark).
 * **Business Intelligence & Dashboards:** Production Star Schema data modeling in Microsoft Power BI, 25+ DAX calculated measures, and Tableau Level of Detail (LOD) geospatial storyboards.
@@ -130,7 +130,7 @@ Every case study across my repositories is maintained to strict international st
 
 ## 🤝 Let's Connect
 
-I am actively seeking roles and high-impact opportunities in **Cybersecurity (SOC Analyst, Threat Intelligence, Detection Engineering, IAM/GRC Analyst)** and **Enterprise Data & BI Analytics**.
+I am actively seeking roles and high-impact opportunities in **Cybersecurity (Cybersecurity Analyst, SOC Analyst, Threat Intelligence, IAM/GRC Analyst)** and **Data Analysis (Enterprise Data & BI Analyst)**.
 
 * 💼 **LinkedIn:** [linkedin.com/in/adekunle-olanrewaju-20261844b](https://www.linkedin.com/in/adekunle-olanrewaju-20261844b)
 * 📧 **Email:** [contact@anlogix.com](mailto:contact@anlogix.com)
