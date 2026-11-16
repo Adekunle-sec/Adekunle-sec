@@ -1,0 +1,70 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0e1726"/>
+      <stop offset="100%" stop-color="#040711"/>
+    </linearGradient>
+    <linearGradient id="metricGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="metricGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="metricGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="metricGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="1200" height="240" rx="16" fill="url(#cardBg)"/>
+  <rect width="1200" height="240" rx="16" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Subtle Top Accent Header -->
+  <path d="M 0 16 C 0 7.16 7.16 0 16 0 L 1184 0 C 1192.84 0 1200 7.16 1200 16 L 1200 48 L 0 48 Z" fill="#0f172a" fill-opacity="0.8"/>
+  <circle cx="28" cy="24" r="6" fill="#EF4444"/>
+  <circle cx="48" cy="24" r="6" fill="#F59E0B"/>
+  <circle cx="68" cy="24" r="6" fill="#10B981"/>
+  <text x="96" y="29" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="1">PORTFOLIO REPOSITORY &amp; TELEMETRY METRICS</text>
+  <line x1="0" y1="48" x2="1200" y2="48" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- 4 Metric Cards Grid -->
+  <!-- Col 1: Production Repositories -->
+  <g transform="translate(40, 72)">
+    <rect width="255" height="135" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="20" y="32" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">SPECIALIZED REPOSITORIES</text>
+    <text x="20" y="78" fill="url(#metricGrad1)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">3 Repos</text>
+    <text x="20" y="108" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Cybersecurity • Data • Master</text>
+  </g>
+
+  <!-- Col 2: Featured Case Studies -->
+  <g transform="translate(325, 72)">
+    <rect width="255" height="135" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="20" y="32" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">DOCUMENTED CASE STUDIES</text>
+    <text x="20" y="78" fill="url(#metricGrad2)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">16+ Labs</text>
+    <text x="20" y="108" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">SOC • IAM • GRC • Threat Intel</text>
+  </g>
+
+  <!-- Col 3: Operational Datasets -->
+  <g transform="translate(610, 72)">
+    <rect width="255" height="135" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="20" y="32" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">OPERATIONAL DATASET VOLUME</text>
+    <text x="20" y="78" fill="url(#metricGrad3)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">32,245+</text>
+    <text x="20" y="108" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Real Records across 47 Sheets</text>
+  </g>
+
+  <!-- Col 4: Analytics & Query Engines -->
+  <g transform="translate(895, 72)">
+    <rect width="265" height="135" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="20" y="32" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">PRODUCTION QUERY ENGINES</text>
+    <text x="20" y="78" fill="url(#metricGrad4)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">KQL • SQL</text>
+    <text x="20" y="108" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">DAX • Power Query • Dynamic Arrays</text>
+  </g>
+</svg>

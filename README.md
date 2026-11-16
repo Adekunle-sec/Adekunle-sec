@@ -120,11 +120,10 @@ Every case study across my repositories is maintained to strict international st
 
 ---
 
-## 📈 GitHub Analytics & Activity
+## 📈 Technical Portfolio Metrics & Telemetry
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Adekunle-sec&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adekunle-sec&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="./github-metrics.svg" width="100%" alt="Adekunle Olanrewaju Technical Portfolio Metrics" />
 </p>
 
 ---
