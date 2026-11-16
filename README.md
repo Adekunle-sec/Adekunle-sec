@@ -87,6 +87,9 @@ My technical projects are organized into two dedicated, independent repositories
 
 ## 📑 Evidence & Documentation Standards
 
+> [!NOTE]
+> **Confidentiality:** No real credentials, tokens, internal IPs, customer data, sensitive alerts, personal identifiers, or unapproved screenshots. Use synthetic or redacted evidence. Publish only materials approved for external sharing.
+
 Every case study across my repositories is maintained to strict international standards:
 
 1. **Operational Transparency:** All documented exercises distinguish between authorized operational implementations, supervised team activities at Halisans Technologies, and independent lab environments.
