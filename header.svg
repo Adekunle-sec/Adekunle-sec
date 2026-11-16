@@ -1,0 +1,78 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40" result="blur" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="300" rx="16" fill="url(#bgGradient)"/>
+  <rect width="1200" height="300" rx="16" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Subtle Ambient Glow -->
+  <circle cx="200" cy="60" r="100" fill="#1E40AF" opacity="0.25" filter="url(#glow)"/>
+  <circle cx="1000" cy="240" r="120" fill="#0284C7" opacity="0.2" filter="url(#glow)"/>
+
+  <!-- Grid Tech Pattern (Subtle) -->
+  <g opacity="0.05" stroke="#94A3B8" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="400" y1="0" x2="400" y2="300"/>
+    <line x1="500" y1="0" x2="500" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="700" y1="0" x2="700" y2="300"/>
+    <line x1="800" y1="0" x2="800" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/>
+    <line x1="1000" y1="0" x2="1000" y2="300"/>
+    <line x1="1100" y1="0" x2="1100" y2="300"/>
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+  </g>
+
+  <!-- Eyebrow Pill -->
+  <g transform="translate(480, 36)">
+    <rect width="240" height="28" rx="14" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4" fill="#10B981"/>
+    <text x="30" y="18" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="1.5">ENTERPRISE PORTFOLIO</text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="600" y="125" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', sans-serif" font-size="42" font-weight="800" letter-spacing="-0.5">
+    ADEKUNLE OLA
+  </text>
+
+  <!-- Gradient Sub-headline -->
+  <text x="600" y="168" text-anchor="middle" fill="url(#textGradient)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Text', sans-serif" font-size="20" font-weight="700" letter-spacing="2">
+    CYBERSECURITY DEFENSE &amp; ENTERPRISE DATA ANALYTICS
+  </text>
+
+  <!-- Accent Divider Line -->
+  <line x1="300" y1="195" x2="900" y2="195" stroke="url(#lineGradient)" stroke-width="2"/>
+
+  <!-- Pillars / Competencies -->
+  <g transform="translate(600, 235)" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" fill="#94A3B8">
+    <text x="0" y="0">
+      <tspan fill="#38BDF8" font-weight="600">SOC &amp; SIEM</tspan> (Sentinel • Defender • KQL)  •  
+      <tspan fill="#818CF8" font-weight="600">DATA &amp; BI</tspan> (Advanced Excel • SQL • Power BI • Tableau)  •  
+      <tspan fill="#34D399" font-weight="600">IAM &amp; GRC</tspan> (Entra ID • ISO 27001)
+    </text>
+  </g>
+</svg>
