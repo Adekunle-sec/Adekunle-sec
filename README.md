@@ -8,8 +8,8 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/adekunle-olanrewaju-20261844b"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/Adekunle-sec/cybersecurity-portfolio"><img src="https://img.shields.io/badge/Cybersecurity%20Portfolio-SOC%20%26%20IAM%20Labs-38BDF8?style=for-the-badge&logo=shield&logoColor=white" /></a>
-  <a href="https://github.com/Adekunle-sec/data-analytics-portfolio"><img src="https://img.shields.io/badge/Data%20Analytics%20Portfolio-Excel%2C%20SQL%2C%20BI-10B981?style=for-the-badge&logo=microsoftexcel&logoColor=white" /></a>
+  <a href="https://github.com/Adekunle-sec/cybersecurity-portfolio"><img src="https://img.shields.io/badge/Cybersecurity%20Portfolio-Explore%20SOC%2C%20IAM%2C%20GRC-38BDF8?style=for-the-badge&logo=shield&logoColor=white" /></a>
+  <a href="https://github.com/Adekunle-sec/data-analytics-portfolio"><img src="https://img.shields.io/badge/Data%20Analytics%20Portfolio-Explore%20Excel%2C%20SQL%2C%20BI-10B981?style=for-the-badge&logo=microsoftexcel&logoColor=white" /></a>
   <a href="mailto:contact@anlogix.com"><img src="https://img.shields.io/badge/Email-Direct%20Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
@@ -19,47 +19,42 @@
 
 I am a **Cybersecurity Analyst and Data Analysis Specialist** dedicated to bridging technical threat telemetry with evidence-based business intelligence. I apply analytical thinking, threat research, and automated data pipelines to solve complex business and enterprise security challenges.
 
-My operational focus spans **Identity & Access Management (IAM), Governance, Risk & Compliance (GRC), Security Operations Center (SOC) defense, Threat Modeling, Threat Intelligence, and Enterprise BI Modeling**.
+My operational competencies span **Identity & Access Management (IAM), Governance, Risk & Compliance (GRC), Security Operations Center (SOC) defense, Threat Modeling, Threat Intelligence, and Enterprise BI Modeling**.
 
 Through hands-on operational assignments at **Halisans Technologies**, I have developed practical expertise in enterprise identity lifecycle management, threat hunting, detection engineering, and access recertification across hybrid Active Directory and Microsoft Entra ID environments.
 
 ---
 
-## 🔐 Specialized Focus Areas
-
-### 🛡️ Cybersecurity Analyst Focus
-* **Identity & Access Management (IAM):** End-to-end identity lifecycle governance, Joiner-Mover-Leaver (JML) workflows, automated provisioning and deprovisioning, Role-Based Access Control (RBAC) matrices, Active Directory, GPO security baselines, and least-privilege enforcement.
-* **Governance, Risk & Compliance (GRC):** Information security governance aligned with **ISO/IEC 27001:2022** and **NIST CSF 2.0**, IT General Controls (ITGC) assessments, security policy development, non-conformity tracking, and external audit readiness.
-* **Security Operations (SOC):** Enterprise security monitoring, event log correlation (Event IDs `4624`, `4625`, `4740`), custom KQL analytic rules in Microsoft Sentinel, endpoint alert triage in Defender XDR, and incident lifecycle response.
-* **Threat Modeling & Attack Surface Analysis:** Identification of attack vectors, attack surface minimization, STRIDE modeling, privilege escalation pathway mapping, and mitigation engineering.
-* **Threat Intelligence & Security Analysis:** Cyber Threat Intelligence (CTI) research across AlienVault OTX and VirusTotal, Indicator of Compromise (IOC) to detection engineering handoffs, and technique mapping to the **MITRE ATT&CK** Enterprise Matrix.
-
-### 📊 Data Analysis Focus
-My Data Analysis background empowers me to treat enterprise security as a **Big Data problem**—translating high-velocity logs and operational records into clear, executive-ready decision intelligence.
-* **Data Analysis & Exploration:** Multi-attribute indexing (`XLOOKUP`, `INDEX/MATCH`), dynamic array manipulation, and anomaly isolation.
-* **SQL Data Engineering:** CTE deduplication, self-joins for missing data imputation, string parsing (`PARSENAME`), and rolling window metrics (AlexTheAnalyst benchmark).
-* **Business Intelligence & Dashboards:** Production Star Schema data modeling in Microsoft Power BI, 25+ DAX calculated measures, and Tableau Level of Detail (LOD) geospatial storyboards.
-* **Data-Driven Risk & Security Analytics:** Security telemetry aggregation, Mean Time to Triage (MTTT) reduction metrics, and operational Turnaround Time (TAT) optimization.
-
----
-
 ## 💼 Practical Experience | Halisans Technologies
 
-**Role:** SOC & IAM Analyst  
+**Role:** Cybersecurity Analyst (SOC, IAM & GRC)  
 **Period:** 2026 – Present  
-**Environment:** Cybersecurity Operations & Identity Governance
+**Environment:** Cybersecurity Operations, Identity Governance & Risk Management
 
-### Core Responsibilities:
-- **Joiner–Mover–Leaver (JML) Workflow:** Formulated and documented authorized identity lifecycle procedures governing user onboarding, cross-departmental mover role transitions, and time-bound deprovisioning with auditable ticket closure evidence.
-- **Enterprise RBAC & Least Privilege:** Designed an enterprise Role-Based Access Control (RBAC) entitlement matrix enforcing strict Separation of Duties (SoD) across operational groups (`HLS-SOC`, business units) in full compliance with **ISO/IEC 27001:2022 Control A5.18**.
-- **Active Directory & Microsoft Entra ID Administration:** Implemented and tested directory configurations, Group Policy security baselines, and multi-factor authentication (MFA) requirements across hybrid identities.
-- **Quarterly User Access Reviews (UAR):** Conducted entitlement recertification reviews across cloud and directory assets, flagging access creep, isolating unauthorized permissions, and documenting remediation outcomes.
-- **Authentication Threat Triage:** Ingested and investigated Windows security events (Event IDs `4624`, `4625`, `4740`) and Linux authentication logs utilizing Kusto Query Language (KQL) in Microsoft Sentinel.
+### Core Operational Responsibilities by Domain:
 
-### Measurable Operational Impact:
-- **Zero Orphaned Accounts:** Enforced end-to-end automated deprovisioning procedures, eliminating dormant/orphaned accounts across directory services.
-- **94% False Positive Reduction:** Tuned custom Sentinel analytic rules for brute-force password spraying, cutting alert noise by 94% and lowering Mean Time to Triage (MTTT) from 18 minutes to < 3 minutes.
-- **Audit-Ready Documentation:** Produced standardized identity governance documentation, GPO security baselines, and incident escalation runbooks ready for ISO 27001 surveillance audits.
+#### 🛡️ Security Operations Center (SOC)
+- **Authentication Alert Investigation:** Investigated Windows Event IDs `4624`, `4625`, and `4740` using KQL in Microsoft Sentinel, isolating brute force and password spraying anomalies.
+- **Defender Endpoint Triage:** Analyzed endpoint telemetry in Microsoft Defender for Endpoint, evaluated process execution trees, extracted indicators, and initiated host containment.
+- **Sentinel Automation Playbooks:** Built automated incident response playbooks in Azure Logic Apps triggered upon alert creation for rapid ticket dispatch and account isolation.
+- **SOC Monitoring Workbooks:** Created interactive Sentinel dashboards visualizing authentication anomalies and Mean Time to Triage (MTTT) metrics.
+
+#### 🔑 Identity & Access Management (IAM)
+- **Joiner–Mover–Leaver (JML) Workflow:** Formulated and documented identity lifecycle workflows governing provisioning, mover role transitions, and deprovisioning with auditable ticket closure trails.
+- **Enterprise RBAC & Least Privilege:** Designed an enterprise Role-Based Access Control (RBAC) entitlement matrix enforcing strict Separation of Duties (SoD) aligned with **ISO/IEC 27001:2022 Control A5.18**.
+- **Directory Administration:** Implemented and tested Active Directory and Microsoft Entra ID identity configurations, GPOs, and secure access policies.
+- **Quarterly User Access Reviews (UAR):** Conducted entitlement recertification reviews across directory services, flagging access creep and tracking remediation.
+
+#### 📋 Governance, Risk & Compliance (GRC)
+- **Enterprise Risk Assessment:** Maintained operational risk registers evaluating threats, likelihood, and business impact to compute inherent and residual risk ratings.
+- **ISO 27001 Control Assessment:** Mapped organizational controls against ISO/IEC 27001:2022 Annex A, identified gaps, and developed corrective action plans.
+- **Policy & Procedure Development:** Formulated access control, acceptable use, and incident response governance documentation.
+- **Audit Evidence & Exception Tracking:** Built an auditable evidence index, tested control operational effectiveness, and tracked audit exceptions to closure.
+
+#### 🕵️ Threat Intelligence & Security Analysis
+- **Threat Intelligence Assessment:** Ingested and evaluated tactical intelligence pulses from AlienVault OTX and SOCRadar, validating indicator fidelity and local relevance.
+- **IOC-to-Detection Handoff:** Translated validated threat actor hypotheses (e.g., LockBit 3.0, APT29) into operational KQL detection rules for deployment to Sentinel.
+- **MITRE ATT&CK Mapping:** Deconstructed adversary tactics and techniques across the MITRE ATT&CK Enterprise Matrix, separating evidence from assumptions.
 
 ---
 
@@ -67,19 +62,21 @@ My Data Analysis background empowers me to treat enterprise security as a **Big 
 
 My technical projects are organized into two dedicated, independent repositories:
 
-### 🛡️ [Cybersecurity & SOC/IAM Portfolio](https://github.com/Adekunle-sec/cybersecurity-portfolio)
+### 🛡️ [Cybersecurity & SOC/IAM/GRC Portfolio](https://github.com/Adekunle-sec/cybersecurity-portfolio)
 
-| Case Study | Domain | Primary Stack | Key Outcomes & Takeaways |
+| Case Study | Domain | Primary Toolset | Key Outcomes & Takeaways |
 |:---|:---|:---|:---|
-| **[Authentication Alert Investigation](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/labs/01-sentinel-defender-soc-lab)** | SOC / SIEM | Sentinel, Defender, KQL | Investigated brute-force password spraying; correlated Event ID `4625` threshold anomalies; reduced MTTT to < 3 min |
-| **[RBAC Entitlement & JML Matrix](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/labs/02-iam-rbac-entitlement-matrix)** | IAM / Governance | Entra ID, Active Directory | Designed least-privilege matrix; Separation of Duties (SoD); aligned to ISO 27001 Control A5.18 |
-| **[Threat Intelligence & MITRE Hunting](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/labs/03-threat-intel-mitre-detection)** | CTI / Threat Hunting | MITRE ATT&CK, OTX, VirusTotal | Ingested CTI pulses (LockBit 3.0, APT29); converted IOC hashes to Sentinel automated detection rules |
+| **[Authentication Alert Investigation](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/halisans-operations/SOC/case-studies/01-authentication-alert-investigation)** | SOC / SIEM | Microsoft Sentinel, KQL | Investigated brute-force password spraying; correlated Event ID `4625` threshold anomalies; reduced MTTT to < 3 min |
+| **[Joiner-Mover-Leaver Workflow](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/halisans-operations/IAM/case-studies/01-joiner-mover-leaver-workflow)** | IAM Lifecycle | Entra ID, Active Directory | Documented authorized provisioning, mover changes, and time-bound deactivation procedures |
+| **[RBAC & Least Privilege Matrix](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/halisans-operations/IAM/case-studies/03-rbac-and-least-privilege)** | IAM / Governance | Entra ID, RBAC | Designed least-privilege matrix; enforced Separation of Duties (SoD); aligned to ISO 27001 Control A5.18 |
+| **[Enterprise Risk Assessment](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/halisans-operations/GRC/case-studies/01-enterprise-risk-assessment)** | GRC / Risk | Risk Registers, NIST CSF | Modeled threat likelihood, business impact, treatment strategies, and residual risk scores |
+| **[ISO 27001 Control Assessment](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/halisans-operations/GRC/case-studies/02-iso-27001-control-assessment)** | GRC / Compliance | ISO 27001:2022 Annex A | Mapped control requirements to evidence, identified control gaps, and formulated remediation plans |
+| **[Threat Intelligence & MITRE Hunting](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/halisans-operations/Security-Analysis/case-studies/01-threat-intelligence-assessment)** | CTI / Threat Hunting | MITRE ATT&CK, OTX, VirusTotal | Ingested CTI pulses (LockBit 3.0, APT29); converted IOC hashes to Sentinel automated detection rules |
 | **[Automated SOAR Playbooks](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/labs/04-soar-sentinel-playbooks)** | SOAR / Automation | Azure Logic Apps, Sentinel | Automated host isolation, compromised credential invalidation, and Tier-2 analyst Jira dispatch |
-| **[ISO 27001 GRC Audit Register](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/labs/05-iso27001-grc-audit-register)** | GRC & Compliance | ISO 27001:2022, NIST CSF | ITGC control evaluation, risk assessment matrix, non-conformity tracking, audit readiness |
 
 ### 📊 [Enterprise Data Analytics & BI Portfolio](https://github.com/Adekunle-sec/data-analytics-portfolio)
 
-| Project | Domain | Primary Stack | Key Outcomes & Deliverables |
+| Project | Domain | Primary Toolset | Key Outcomes & Deliverables |
 |:---|:---|:---|:---|
 | **[Operations & Supply Chain Modeling](https://github.com/Adekunle-sec/data-analytics-portfolio/tree/main/projects/01-excel-operations-analytics)** | Advanced Excel | Power Query, Dynamic Arrays | Modeled 32,245 operational records across 47 sheets; automated Turnaround Time (TAT) velocity & QC pass rate |
 | **[Production SQL Cleaning & EDA](https://github.com/Adekunle-sec/data-analytics-portfolio/tree/main/projects/02-sql-data-cleaning-and-eda)** | SQL Engineering | T-SQL, PostgreSQL, CTEs | AlexTheAnalyst benchmark; self-joins for NULL imputation, `PARSENAME` tokenization, window rolling sums |
@@ -115,6 +112,7 @@ Every case study across my repositories is maintained to strict international st
 ### Continuous Technical Competencies:
 * **Cloud SIEM & Threat Hunting:** Microsoft Sentinel, Microsoft Defender XDR, KQL (Kusto Query Language), Splunk.
 * **Enterprise Identity (IAM):** Microsoft Entra ID (Azure AD), Windows Server Active Directory, Group Policy (GPO), RBAC, JML.
+* **Governance & Risk:** Risk Registers, ITGC Controls, Audit Exception Tracking, Jira Service Desk.
 * **Data Engineering & Analytics:** Advanced Microsoft Excel (Power Query, Dynamic Arrays, Financial/Ops Modeling), T-SQL, PostgreSQL, Power BI (DAX), Tableau Public.
 
 ---
