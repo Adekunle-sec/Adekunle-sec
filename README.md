@@ -90,7 +90,7 @@ My technical projects are organized into two dedicated, independent repositories
 > [!NOTE]
 > **Confidentiality:** No real credentials, tokens, internal IPs, customer data, sensitive alerts, personal identifiers, or unapproved screenshots. Use synthetic or redacted evidence. Publish only materials approved for external sharing.
 
-Every case study across my repositories is maintained to strict international standards:
+Every case study across my repositories is strictly my personal experience:
 
 1. **Operational Transparency:** All documented exercises distinguish between authorized operational implementations, supervised team activities at Halisans Technologies, and independent lab environments.
 2. **Confidentiality & Non-Disclosure:** Strict adherence to data privacy and security ethics. No live corporate credentials, personal identifiers, internal network IPs, proprietary customer records, or internal escalation tokens are published. All datasets are synthetic, redacted, or sanitized.
@@ -103,20 +103,22 @@ Every case study across my repositories is maintained to strict international st
    - Technical Limitations & Lessons Learned
 
 ---
+### 🎓 Certifications
 
-## 🎓 Certifications & Professional Development
+
+### Professional Development
 
 ### Industry Frameworks & Standards:
 * **MITRE ATT&CK Enterprise Matrix v14**: Threat modeling, technique decomposition, and detection engineering.
 * **ISO/IEC 27001:2022**: Information security management systems, ITGC control testing, and audit preparation.
 * **NIST Cybersecurity Framework (CSF 2.0)**: Identify, Protect, Detect, Respond, Recover lifecycle.
-* **Zero-Trust Architecture (ZTA)**: Explicit verification, least-privileged access, and assume breach philosophy.
+* **Zero-Trust Architecture (ZTA)**: Explicit verification, least-privilege access, and assume-breach philosophy.
 
 ### Continuous Technical Competencies:
 * **Cloud SIEM & Threat Hunting:** Microsoft Sentinel, Microsoft Defender XDR, KQL (Kusto Query Language), Splunk.
 * **Enterprise Identity (IAM):** Microsoft Entra ID (Azure AD), Windows Server Active Directory, Group Policy (GPO), RBAC, JML.
 * **Governance & Risk:** Risk Registers, ITGC Controls, Audit Exception Tracking, Jira Service Desk.
-* **Data Engineering & Analytics:** Advanced Microsoft Excel (Power Query, Dynamic Arrays, Financial/Ops Modeling), T-SQL, PostgreSQL, Power BI (DAX), Tableau Public.
+* **Data Engineering & Analytics:** Advanced Microsoft Excel (Operation Analyst, Dynamic Arrays, Financial/Ops Modeling), SQL, Power BI, Tableau Public.
 
 ---
 
@@ -130,7 +132,7 @@ Every case study across my repositories is maintained to strict international st
 
 ## 🤝 Let's Connect
 
-I am actively seeking roles and high-impact opportunities in **Cybersecurity (Cybersecurity Analyst, SOC Analyst, Threat Intelligence, IAM/GRC Analyst)** and **Data Analysis (Enterprise Data & BI Analyst)**.
+I am actively seeking roles and high-impact opportunities in **Cybersecurity (Cybersecurity Analyst, SOC Analyst, Threat Intelligence, IAM/GRC Analyst)**.
 
 * 💼 **LinkedIn:** [linkedin.com/in/adekunle-olanrewaju-20261844b](https://www.linkedin.com/in/adekunle-olanrewaju-20261844b)
 * 📧 **Email:** [tayour.ola@gmail.com](mailto:tayour.ola@gmail.com)
