@@ -33,28 +33,29 @@ Through hands-on operational assignments at **Halisans Technologies**, I have de
 
 ### Core Operational Responsibilities by Domain:
 
-#### 🛡️ Security Operations Center (SOC)
-- **Authentication Alert Investigation:** Investigated Windows Event IDs `4624`, `4625`, and `4740` using KQL in Microsoft Sentinel, isolating brute force and password spraying anomalies.
-- **Defender Endpoint Triage:** Analyzed endpoint telemetry in Microsoft Defender for Endpoint, evaluated process execution trees, extracted indicators, and initiated host containment.
-- **Sentinel Automation Playbooks:** Built automated incident response playbooks in Azure Logic Apps triggered upon alert creation for rapid ticket dispatch and account isolation.
-- **SOC Monitoring Workbooks:** Created interactive Sentinel dashboards visualizing authentication anomalies and Mean Time to Triage (MTTT) metrics.
+#### 🛡️ Security Operations Center (SOC) & SIEM
+- **Event vs. Alert vs. Incident Triage:** Standardized triage methodologies distinguishing baseline telemetry events from automated system alerts and confirmed security incidents requiring containment.
+- **SIEM & XDR Defense-in-Depth:** Correlated tactical endpoint detections in Microsoft Defender XDR with enterprise surveillance feeds across Microsoft Sentinel, Splunk, and Linux servers.
+- **Multi-OS Device Onboarding (Azure Arc & AMA):** Deployed Azure Arc onboarding scripts (`OnboardAzureArc.sh` / `OnboardAzureArc.ps1`), verified agent telemetry with `azcmagent show`, and configured Data Collection Rules (DCR) via XPath filtering (`EventID 4624, 4625, 4740`).
+- **Authentication & Kerberos Analysis:** Analyzed Kerberos ticket-granting security mechanics (AS authentication, TGT issuance, TGS ticket exchange), investigating brute-force and password spraying attacks.
+- **Custom Indicator Blocking & SOAR:** Added malicious file hashes directly to Microsoft Defender custom block lists (`Indicators -> File hashes -> Block execution`) and built automated Logic App playbooks for instant host isolation.
 
-#### 🔑 Identity & Access Management (IAM)
-- **Joiner–Mover–Leaver (JML) Workflow:** Formulated and documented identity lifecycle workflows governing provisioning, mover role transitions, and deprovisioning with auditable ticket closure trails.
-- **Enterprise RBAC & Least Privilege:** Designed an enterprise Role-Based Access Control (RBAC) entitlement matrix enforcing strict Separation of Duties (SoD) aligned with **ISO/IEC 27001:2022 Control A5.18**.
-- **Directory Administration:** Implemented and tested Active Directory and Microsoft Entra ID identity configurations, GPOs, and secure access policies.
-- **Quarterly User Access Reviews (UAR):** Conducted entitlement recertification reviews across directory services, flagging access creep and tracking remediation.
+#### 🔑 Identity & Access Management (IAM) & Governance
+- **Enterprise Provisioning & Entitlement Matrices:** Provisioned user identities in Microsoft Entra ID and Active Directory based on standardized RBAC entitlement matrices and GRC compliance standards.
+- **Multi-Factor Authentication (MFA) Defense Layering:** Enforced 3-pillar authentication policies combining *what you know* (passcodes), *what you are* (biometrics), and *what you have* (hardware tokens / authenticator apps).
+- **Administrative Role Segregation:** Configured granular role permissions in Microsoft Defender XDR (`Defender -> config -> permission -> roles`) isolating SOC Manager, SOC Tier 1, and SOC Tier 2 duties; provisioned Sentinel Resource Group IAM permissions.
+- **Identity Governance & JML Lifecycle:** Managed Jira Service Desk account provisioning, department group assignments, automated Defender incident email notifications (aligned with **ISO 27001 Control A5.18**), and quarterly access recertifications.
 
-#### 📋 Governance, Risk & Compliance (GRC)
+#### 📋 Governance, Risk & Compliance (GRC) & Audit Readiness
 - **Enterprise Risk Assessment:** Maintained operational risk registers evaluating threats, likelihood, and business impact to compute inherent and residual risk ratings.
-- **ISO 27001 Control Assessment:** Mapped organizational controls against ISO/IEC 27001:2022 Annex A, identified gaps, and developed corrective action plans.
+- **ISO/IEC 27001:2022 Control Assessments:** Mapped technical operations against Annex A controls, including Control A5.7 (Threat Intelligence), Control A5.18 (Access Rights), and Controls A8.15 & A8.16 (Logging & Monitoring).
+- **Audit Evidence Delivery:** Packaged auditable proof of user creation, group memberships, and role assignments, validating compliance against organizational governance rules.
 - **Policy & Procedure Development:** Formulated access control, acceptable use, and incident response governance documentation.
-- **Audit Evidence & Exception Tracking:** Built an auditable evidence index, tested control operational effectiveness, and tracked audit exceptions to closure.
 
 #### 🕵️ Threat Intelligence & Security Analysis
-- **Threat Intelligence Assessment:** Ingested and evaluated tactical intelligence pulses from AlienVault OTX and SOCRadar, validating indicator fidelity and local relevance.
-- **IOC-to-Detection Handoff:** Translated validated threat actor hypotheses (e.g., LockBit 3.0, APT29) into operational KQL detection rules for deployment to Sentinel.
-- **MITRE ATT&CK Mapping:** Deconstructed adversary tactics and techniques across the MITRE ATT&CK Enterprise Matrix, separating evidence from assumptions.
+- **IOA vs. IOC Threat Hunting:** Hunted for pre-attack behavioral indicators of attack (IOAs) and post-incident indicators of compromise (IOCs: IPs, SHA-256 hashes, domains, DKIM/DMARC/SPF anomalies).
+- **Intelligence Gathering & Validation:** Ingested threat pulses and reports from AlienVault OTX (Pulses, Groups, Users), SOCRadar, and VirusTotal; verified binary digital signatures to identify unsigned malware.
+- **Threat Actor Profiling & MITRE ATT&CK:** Deconstructed adversary tactics and techniques across the MITRE ATT&CK Enterprise Matrix (e.g., APT29, LockBit 3.0, Lazarus Group; T1190, T1566) into actionable Sentinel KQL detection rules.
 
 ---
 
@@ -62,11 +63,11 @@ Through hands-on operational assignments at **Halisans Technologies**, I have de
 
 My technical projects are organized into two dedicated, independent repositories:
 
-### 🛡️ [Cybersecurity & SOC/IAM/GRC Portfolio](https://github.com/Adekunle-sec/cybersecurity-portfolio)
+### 🛡️ [Cybersecurity Portfolio (Unified Monorepo)](https://github.com/Adekunle-sec/cybersecurity-portfolio)
 
 | Case Study / Project | Domain | Primary Toolset | Key Outcomes & Takeaways |
 |:---|:---|:---|:---|
-| **[Threat Modeling & Risk Assessment for a SaaS Product](https://github.com/Adekunle-sec/threat-modeling-risk-assessment-saas)**<br>*(Subproject: [In Repo](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/SOC/Threat-Modeling-and-Risk-Assessment-for-a-SaaS-Product))* | Threat Modeling & Risk | OWASP Threat Dragon, STRIDE, ISO 27001, NIST 800-53 | Complete DFD (L1), 1,000-row STRIDE risk register, mitigation plan, control mapping matrix, and 24-page threat model report |
+| **[Threat Modeling & Risk Assessment for a SaaS Product](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/threat-modeling-risk-assessment-saas)** | Threat Modeling & Risk | OWASP Threat Dragon, STRIDE, ISO 27001, NIST 800-53 | Complete DFD (L1), 1,000-row STRIDE risk register, mitigation plan, control mapping matrix, and 24-page threat model report |
 | **[Authentication Alert Investigation](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/SOC/case-studies/01-authentication-alert-investigation)** | SOC / SIEM | Microsoft Sentinel, KQL | Investigated brute-force password spraying; correlated Event ID `4625` threshold anomalies; reduced MTTT to < 3 min |
 | **[Joiner-Mover-Leaver Workflow](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/IAM/case-studies/01-joiner-mover-leaver-workflow)** | IAM Lifecycle | Entra ID, Active Directory | Documented authorized provisioning, mover changes, and time-bound deactivation procedures |
 | **[RBAC & Least Privilege Matrix](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/IAM/case-studies/03-rbac-and-least-privilege)** | IAM / Governance | Entra ID, RBAC | Designed least-privilege matrix; enforced Separation of Duties (SoD); aligned to ISO 27001 Control A5.18 |
@@ -110,16 +111,17 @@ Every case study across my repositories is strictly my personal experience:
 ### Professional Development
 
 ### Industry Frameworks & Standards:
-* **MITRE ATT&CK Enterprise Matrix v14**: Threat modeling, technique decomposition, and detection engineering.
-* **ISO/IEC 27001:2022**: Information security management systems, ITGC control testing, and audit preparation.
+* **MITRE ATT&CK Enterprise Matrix v14**: Threat modeling, technique decomposition, and detection engineering (T1190, T1566).
+* **ISO/IEC 27001:2022**: Information security management systems, Annex A controls (A5.7 Threat Intel, A5.18 Access Rights, A8.15 & A8.16 Logging & Monitoring).
 * **NIST Cybersecurity Framework (CSF 2.0)**: Identify, Protect, Detect, Respond, Recover lifecycle.
-* **Zero-Trust Architecture (ZTA)**: Explicit verification, least-privilege access, and assume-breach philosophy.
+* **NIST SP 800-53 Rev 5 & Zero-Trust Architecture (ZTA)**: Explicit verification, least-privilege access, and assume-breach philosophy.
 
 ### Continuous Technical Competencies:
-* **Cloud SIEM & Threat Hunting:** Microsoft Sentinel, Microsoft Defender XDR, KQL (Kusto Query Language), Splunk.
-* **Enterprise Identity (IAM):** Microsoft Entra ID (Azure AD), Windows Server Active Directory, Group Policy (GPO), RBAC, JML.
-* **Governance & Risk:** Risk Registers, ITGC Controls, Audit Exception Tracking, Jira Service Desk.
-* **Data Engineering & Analytics:** Advanced Microsoft Excel (Operation Analyst, Dynamic Arrays, Financial/Ops Modeling), SQL, Power BI, Tableau Public.
+* **Cloud SIEM & Threat Hunting:** Microsoft Sentinel, Microsoft Defender XDR, Splunk, Wazuh, Elastic, Gurucul (AI UEBA), KQL (Kusto Query Language), Azure Arc, Azure Monitor Agent (AMA).
+* **Enterprise Identity & Access Governance:** Microsoft Entra ID (Azure AD), Windows Server Active Directory, MFA Layering (Knowledge, Biometrics, FIDO2/Tokens), RBAC Entitlement Matrices, Defender Role Segregation, Jira Provisioning.
+* **Threat Modeling & CTI:** OWASP Threat Dragon, STRIDE, AlienVault OTX, SOCRadar, VirusTotal, Filigran (OpenCTI), abuse.ch, MITRE ATT&CK.
+* **Governance, Risk & Compliance (GRC):** Enterprise Risk Registers, CVSS v3.1 Scoring, Statement of Applicability (SoA), ITGC Control Testing, Audit Exception Tracking.
+* **Data Engineering & Analytics:** Advanced Microsoft Excel (Operation Analyst, Dynamic Arrays, Financial/Ops Modeling), SQL (T-SQL, PostgreSQL), Power BI (DAX, Star Schema), Tableau Public.
 
 ---
 
