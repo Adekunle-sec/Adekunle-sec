@@ -64,15 +64,16 @@ My technical projects are organized into two dedicated, independent repositories
 
 ### 🛡️ [Cybersecurity & SOC/IAM/GRC Portfolio](https://github.com/Adekunle-sec/cybersecurity-portfolio)
 
-| Case Study | Domain | Primary Toolset | Key Outcomes & Takeaways |
+| Case Study / Project | Domain | Primary Toolset | Key Outcomes & Takeaways |
 |:---|:---|:---|:---|
+| **[Threat Modeling & Risk Assessment for a SaaS Product](https://github.com/Adekunle-sec/threat-modeling-risk-assessment-saas)**<br>*(Subproject: [In Repo](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/SOC/Threat-Modeling-and-Risk-Assessment-for-a-SaaS-Product))* | Threat Modeling & Risk | OWASP Threat Dragon, STRIDE, ISO 27001, NIST 800-53 | Complete DFD (L1), 1,000-row STRIDE risk register, mitigation plan, control mapping matrix, and 24-page threat model report |
 | **[Authentication Alert Investigation](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/SOC/case-studies/01-authentication-alert-investigation)** | SOC / SIEM | Microsoft Sentinel, KQL | Investigated brute-force password spraying; correlated Event ID `4625` threshold anomalies; reduced MTTT to < 3 min |
 | **[Joiner-Mover-Leaver Workflow](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/IAM/case-studies/01-joiner-mover-leaver-workflow)** | IAM Lifecycle | Entra ID, Active Directory | Documented authorized provisioning, mover changes, and time-bound deactivation procedures |
 | **[RBAC & Least Privilege Matrix](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/IAM/case-studies/03-rbac-and-least-privilege)** | IAM / Governance | Entra ID, RBAC | Designed least-privilege matrix; enforced Separation of Duties (SoD); aligned to ISO 27001 Control A5.18 |
 | **[Enterprise Risk Assessment](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/GRC/case-studies/01-enterprise-risk-assessment)** | GRC / Risk | Risk Registers, NIST CSF | Modeled threat likelihood, business impact, treatment strategies, and residual risk scores |
 | **[ISO 27001 Control Assessment](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/GRC/case-studies/02-iso-27001-control-assessment)** | GRC / Compliance | ISO 27001:2022 Annex A | Mapped control requirements to evidence, identified control gaps, and formulated remediation plans |
-| **[Threat Intelligence & MITRE Hunting](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/Security-Analysis/case-studies/01-threat-intelligence-assessment)** | CTI / Threat Hunting | MITRE ATT&CK, OTX, VirusTotal | Ingested CTI pulses (LockBit 3.0, APT29); converted IOC hashes to Sentinel automated detection rules |
-| **[Automated SOAR Playbooks](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/labs/04-soar-sentinel-playbooks)** | SOAR / Automation | Azure Logic Apps, Sentinel | Automated host isolation, compromised credential invalidation, and Tier-2 analyst Jira dispatch |
+| **[Threat Intelligence & MITRE Hunting](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/SOC/threat-intelligence-and-detection/case-studies/01-threat-intelligence-assessment)** | CTI / Threat Hunting | MITRE ATT&CK, OTX, VirusTotal | Ingested CTI pulses (LockBit 3.0, APT29); converted IOC hashes to Sentinel automated detection rules |
+| **[Automated SOAR Playbooks](https://github.com/Adekunle-sec/cybersecurity-portfolio/tree/main/SOC/labs/04-soar-sentinel-playbooks)** | SOAR / Automation | Azure Logic Apps, Sentinel | Automated host isolation, compromised credential invalidation, and Tier-2 analyst Jira dispatch |
 
 ### 📊 [Enterprise Data Analytics & BI Portfolio](https://github.com/Adekunle-sec/data-analytics-portfolio)
 
