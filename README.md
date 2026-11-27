@@ -56,6 +56,8 @@ Through hands-on operational assignments at **Halisans Technologies**, I have de
 - **IOA vs. IOC Threat Hunting:** Hunted for pre-attack behavioral indicators of attack (IOAs) and post-incident indicators of compromise (IOCs: IPs, SHA-256 hashes, domains, DKIM/DMARC/SPF anomalies).
 - **Intelligence Gathering & Validation:** Ingested threat pulses and reports from AlienVault OTX (Pulses, Groups, Users), SOCRadar, and VirusTotal; verified binary digital signatures to identify unsigned malware.
 - **Threat Actor Profiling & MITRE ATT&CK:** Deconstructed adversary tactics and techniques across the MITRE ATT&CK Enterprise Matrix (e.g., APT29, LockBit 3.0, Lazarus Group; T1190, T1566) into actionable Sentinel KQL detection rules.
+- **Phishing Simulation & Human Firewall (ISO 27001 Annex A6.3):** Led employee phishing drills and sender authentication verification (SPF, DKIM, DMARC) building human defenses against social engineering.
+- **Risk-Based Vulnerability Management (ISO 27001 Annex A8.8):** Formulated 4-tier remediation SLAs (Critical immediate, High 7d, Medium 30d, Low 90d) prioritizing real-world exploitability over raw CVSS base scores.
 
 ---
 
